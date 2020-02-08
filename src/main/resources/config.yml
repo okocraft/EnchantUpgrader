@@ -1,0 +1,84 @@
+messages:
+  economy-is-not-enabled: "&7* Vaultが有効化されていません。"
+  player-only: "&7* プレイヤーしか実行できません。"
+  not-enough-arguments: "&7* 引数が足りません。"
+  cannot-upgrade-air: "&7* 手にアイテムを持ってください。"
+  cannot-find-enchant: "&7* そのエンチャントは存在しません。"
+  upgrade-only: "&7* アップグレードするには指定したエンチャントが1レベル以上必要です。"
+  notify-cost: "&7* 必要なコストは以下のとおりです。それでもよければ /upgrade <enchant> confirm コマンドを使います。"
+  vanilla-level: "&7バニラレベル"
+  vanilla-experience: "&7バニラ経験値"
+  money: "&7お金"
+  item: "&7アイテム"
+  not-enough-money: "&7* お金が足りません。"
+  not-enough-vanilla-level: "&7* バニラレベルが足りません。"
+  not-enough-vanilla-experience: "&7* バニラ経験値が足りません。"
+  not-enough-item: "&7* アイテムが足りません。"
+  success: "&7* &b%enchant% &7のレベルを &b%level% &7にしました。"
+
+# If true, items being upgraded must have the enchant that is at least level 1.
+upgrade-only: true
+
+enchants:
+  DEFAULT:
+    cost:
+      vanilla-level: 1000
+      #vanilla-experience: 1000
+      #money: 50000
+      #item:
+      #  material: PAPER
+      #  amount: 1
+      #  name: '§6§lレジェンダリーチケット'
+      #  lore:
+      #  - '§7'
+      #  - '§7おこチケ超大当たりで排出されるチケット。'
+      #  - '§7超レア称号、スポナーなどと交換可能。'
+      #  - ''
+#  DAMAGE_ALL: {} # overrides default.
+#  ARROW_DAMAGE: {}
+#  ARROW_FIRE: {}
+#  ARROW_INFINITE: {}
+#  ARROW_KNOCKBACK: {}
+#  BINDING_CURSE: {}
+#  CHANNELING: {}
+#  DAMAGE_ARTHROPODS: {}
+#  DAMAGE_UNDEAD: {}
+#  DEPTH_STRIDER: {}
+#  DIG_SPEED: {}
+  DURABILITY:
+    cost:
+      item:
+        legendary_ticket:
+          material: PAPER
+          amount: 1
+          name: '§6§lレジェンダリーチケット'
+          lore:
+          - '§7'
+          - '§7おこチケ超大当たりで排出されるチケット。'
+          - '§7超レア称号、スポナーなどと交換可能。'
+          - ''
+#  FIRE_ASPECT: {}
+#  FROST_WALKER: {}
+#  IMPALING: {}
+#  KNOCKBACK: {}
+#  LOOT_BONUS_BLOCKS: {}
+#  LOOT_BONUS_MOBS: {}
+#  LOYALTY: {}
+#  LUCK: {}
+#  LURE: {}
+#  MENDING: {}
+#  MULTISHOT: {}
+#  OXYGEN: {}
+#  PIERCING: {}
+#  PROTECTION_ENVIRONMENTAL: {}
+#  PROTECTION_EXPLOSIONS: {}
+#  PROTECTION_FALL: {}
+#  PROTECTION_FIRE: {}
+#  PROTECTION_PROJECTILE: {}
+#  QUICK_CHARGE: {}
+#  RIPTIDE: {}
+#  SILK_TOUCH: {}
+#  SWEEPING_EDGE: {}
+#  THORNS: {}
+#  VANISHING_CURSE: {}
+#  WATER_WORKER: {}

@@ -1,0 +1,129 @@
+name: ${project.artifactId}
+version: ${project.version}
+main: ${project.groupId}.${project.artifactId}
+author: LazyGon
+api-version: 1.14
+depend:
+  - "Vault"
+description: Plugin that implements signiture command.
+
+commands:
+  upgradeenchant:
+    aliases: ["upgrade", "ue"]
+    description: "Main command of this plugin."
+
+permissions:
+  upgradeenchant.*:
+    children:
+      upgradeenchant.damage_all: true
+      upgradeenchant.arrow_damage: true
+      upgradeenchant.arrow_fire: true
+      upgradeenchant.arrow_infinite: true
+      upgradeenchant.arrow_knockback: true
+      upgradeenchant.binding_curse: true
+      upgradeenchant.channeling: true
+      upgradeenchant.damage_arthropods: true
+      upgradeenchant.damage_undead: true
+      upgradeenchant.depth_strider: true
+      upgradeenchant.dig_speed: true
+      upgradeenchant.durability: true
+      upgradeenchant.fire_aspect: true
+      upgradeenchant.frost_walker: true
+      upgradeenchant.impaling: true
+      upgradeenchant.knockback: true
+      upgradeenchant.loot_bonus_blocks: true
+      upgradeenchant.loot_bonus_mobs: true
+      upgradeenchant.loyalty: true
+      upgradeenchant.luck: true
+      upgradeenchant.lure: true
+      upgradeenchant.mending: true
+      upgradeenchant.multishot: true
+      upgradeenchant.oxygen: true
+      upgradeenchant.piercing: true
+      upgradeenchant.protection_environmental: true
+      upgradeenchant.protection_explosions: true
+      upgradeenchant.protection_fall: true
+      upgradeenchant.protection_fire: true
+      upgradeenchant.protection_projectile: true
+      upgradeenchant.quick_charge: true
+      upgradeenchant.riptide: true
+      upgradeenchant.silk_touch: true
+      upgradeenchant.sweeping_edge: true
+      upgradeenchant.thorns: true
+      upgradeenchant.vanishing_curse: true
+      upgradeenchant.water_worker: true
+    default: op
+  upgradeenchant.damage_all:
+    default: op
+  upgradeenchant.arrow_damage:
+    default: op
+  upgradeenchant.arrow_fire:
+    default: op
+  upgradeenchant.arrow_infinite:
+    default: op
+  upgradeenchant.arrow_knockback:
+    default: op
+  upgradeenchant.binding_curse:
+    default: op
+  upgradeenchant.channeling:
+    default: op
+  upgradeenchant.damage_arthropods:
+    default: op
+  upgradeenchant.damage_undead:
+    default: op
+  upgradeenchant.depth_strider:
+    default: op
+  upgradeenchant.dig_speed:
+    default: op
+  upgradeenchant.durability:
+    default: op
+  upgradeenchant.fire_aspect:
+    default: op
+  upgradeenchant.frost_walker:
+    default: op
+  upgradeenchant.impaling:
+    default: op
+  upgradeenchant.knockback:
+    default: op
+  upgradeenchant.loot_bonus_blocks:
+    default: op
+  upgradeenchant.loot_bonus_mobs:
+    default: op
+  upgradeenchant.loyalty:
+    default: op
+  upgradeenchant.luck:
+    default: op
+  upgradeenchant.lure:
+    default: op
+  upgradeenchant.mending:
+    default: op
+  upgradeenchant.multishot:
+    default: op
+  upgradeenchant.oxygen:
+    default: op
+  upgradeenchant.piercing:
+    default: op
+  upgradeenchant.protection_environmental:
+    default: op
+  upgradeenchant.protection_explosions:
+    default: op
+  upgradeenchant.protection_fall:
+    default: op
+  upgradeenchant.protection_fire:
+    default: op
+  upgradeenchant.protection_projectile:
+    default: op
+  upgradeenchant.quick_charge:
+    default: op
+  upgradeenchant.riptide:
+    default: op
+  upgradeenchant.silk_touch:
+    default: op
+  upgradeenchant.sweeping_edge:
+    default: op
+  upgradeenchant.thorns:
+    default: op
+  upgradeenchant.vanishing_curse:
+    default: op
+  upgradeenchant.water_worker:
+    default: op

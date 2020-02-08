@@ -1,2 +1,2 @@
 # EnchantUpgrader
-Break limit of vanilla enchantment by paying specified item, money or experience.
+Break limit of vanilla enchant by paying specified item, money or experience.
